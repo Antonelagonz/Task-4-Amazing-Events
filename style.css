@@ -1,0 +1,173 @@
+
+
+main, h1{
+    background: rgb(228,153,189);
+background: linear-gradient(90deg, rgba(228,153,189,1) 0%, rgba(218,78,145,1) 12%, rgba(196,28,109,1) 49%, rgba(165,56,115,1) 74%, rgba(133,86,122,1) 100%);
+    padding: 1rem;
+}
+h1{
+    margin: 0 !important;
+}
+.navbar {
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+main {
+  min-height: 75vh;
+}
+.searchbar {
+  justify-content: flex-end !important;
+  align-self: center;
+}
+
+.card {
+  width: 18rem;
+  border: 1px solid black !important;
+  padding: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  align-items: center;
+}
+.card img {
+  object-fit: cover;
+  height: 9rem;
+  max-width: 18rem;
+  border-radius: 5px;
+}
+.card-details{
+  justify-content: center !important;
+  align-items: center;
+  width: 30rem;
+}
+.card-details>.card-body-details{
+  text-align: left;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+.card-details>.card-title-details{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.card-details>.card-img-details{
+  object-fit: cover;
+  height: 14rem;
+  max-width: 29rem;
+  border-radius: 20px;
+}
+.card-body-details>p{
+  font-size:2rem;
+}
+.card-body>.btn{
+  align-self: center !important;
+}
+.navbar-toggler {
+  background-color: white;
+}
+.card-body{
+    text-align: center;
+    justify-content: center;
+}
+.card-body>.button{
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+footer{
+    background-color: rgb(214,3,103);
+}
+footer>p{
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.form-nombre, .form-mail{
+    width: 100%;
+    height: 4rem;
+}
+.form-message{
+    width: 100%;
+    height: 8rem !important;
+}
+.form-label{
+  font-size: 2rem;
+}
+.form-contact{
+  width: 100%;
+}
+@media only screen and (min-width: 960px) {
+  .form-contact{
+    justify-content: center !important;
+    align-items: center;
+    width: 50rem;
+  }
+}
+@media only screen and (max-width: 960px) {
+.form-control{
+  width: 100%;
+  justify-content: center !important;
+}
+}
+
+form>button{
+  height: 4rem;
+  width: 6rem;
+  align-items: center;
+  font-size: 1.5rem;
+}
+table{
+    background-color: white;
+}
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+  align-items: center;
+}
+
+.tg .gray {
+  background-color: #c0c0c0;
+  border-color: inherit;
+  font-size: 18px;
+  text-align: left;
+  vertical-align: top;
+  width: 60rem;
+  align-items: center;
+}
+
+.tg .blank{
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top; 
+  align-items: center;
+}
+.table{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+
+}
